@@ -21,4 +21,6 @@ Source ----> Compiler -----> Output -----> Virtual machine
 
 Source code = it the human readable instructions written in a programming language that computers can understand and execute.
 Compiler    = A compiler is a translator that converts human readable source code into machine executable code for a computer.
+Output(code)= Output is the result or information produced by a computer program or system in response to a specific input or operation.
+
 
