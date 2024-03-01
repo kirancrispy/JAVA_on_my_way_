@@ -1,0 +1,53 @@
+CODE STRUCTURE IN JAVA
+
+Source File------> Class File-------> Method 1-------> Statement
+                                      Method 2-------> Statement
+
+source file olds one CLASS Represents a piece of Program the class must go within a pair of curly braces.
+ex:-   
+    public class MyDeavistores {
+
+                                }
+
+
+class   class has one or more methods ,methods will holds instructions ,method shoud be decleare within a class brace.
+ex:-   
+    public class MyDeavistores {
+    void bark() {
+                        }
+                                }
+
+
+Method  its a set of statements and its like a function procedure.
+ex:-   
+    public class MyDeavistores {
+    void bark() {
+     statement1;
+     statement2;
+                           }
+                                }
+
+Anatomy of Class
+
+public class MyDeavisitores {
+public static void main (String[] args) {
+System.out.println("i rule");
+
+public is for everyone can access it 
+class is  the characteristics (attributes) and behaviors (methods) that objects of that type will have
+MyDeavisitores its a name of class
+{ curly brace are oppening means class are opened
+static i ll explain in later
+void the return type void means ther is no return value's main means name of this methods
+(String[] args) arguments to the method this method must be given an array of strings ,and the array will be called args.
+{ oppening the braces for methods
+System.out.print this says print the standard output 
+("i rule") the string you want to print 
+; every statement must be end in a semicolon
+} closing brace of the main  method
+} closing brace of class
+
+
+
+
+
