@@ -68,11 +68,72 @@ x = 3 ;
 --------- Variables are declared with a name and a type and you’ll learn about all the Java types in next
 int weight;
 //type: int, name: weight
+-----------The equals operator uses two equals signs ==
+-----------The assignment operator is one equals sign =
 ---------- Classes and methods must be defined within a pair of curly braces.
 public void go()
 {
  // amazing code here right na
-}
+-----------If the conditional test is false, the while loop code block won’t run, and execution will move down to the code immediately
+after the loop block.
+-----------Put a boolean test inside parentheses:
+while (x == 4) { }
+----------------------------------------------------------------------------------------------------------------------------------------
+System.out.print vs System.out.println
+
+you nkow difference b/w those ?
+System.out.println inserts a newline
+(think of println as printnewline), while
+System.out.print keeps printing to
+the same line. If you want each thing
+you print out to be on its own line, use
+println. If you want everything to stick
+together on one line, use print
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Java-enabled appliances come to life ====== read this to how java are helping====
+
+Bob’s alarm clock rings at 8:30 Monday morning, just like every
+AS IF ON
+other weekday. But Bob had a wild weekend and reaches for the
+SNOOZE button. And that’s when the action starts, and the
+Java-enabled appliances come to life...
+
+imagine First, the alarm clock sends a message to the coffee maker
+“Hey, the geek’s sleeping in again, delay the coffee 12 minutes.”
+The coffee maker sends a message to the Motorola™ toaster,
+“Hold the toast, Bob’s snoozing.”
+The alarm clock then sends a message to Bob’s
+Android, “Call Bob’s 9 o’clock and tell him we’re
+running a little late.”
+Finally, the alarm clock sends a message to Sam’s
+(Sam is the dog) wireless collar, with the toofamiliar signal that means, “Get the paper, but
+don’t expect a walk.”
+A few minutes later, the alarm goes off again. And again Bob hits SNOOZE and
+the appliances start chattering. Finally, the alarm rings a third
+time. But just as Bob reaches for the snooze button, the clock
+sends the “jump and bark” signal to Sam’s collar. Shocked to
+full consciousness, Bob rises, grateful that his Java skills, and
+spontaneous internet shopping purchases, have enhanced the daily
+routines of his life.
+
+
+out put is
+His toast is toasted.
+His coffee steams.
+His paper awaits.
+Just another wonderful morning in The Java-Enabled House.
+
+----------------------------------------------------------------------------------------------------------
+
+
+where we are using java u can see in 
+Yes, the story could be true! Java is widely used in various devices like cell phones, ATMs, credit cards,
+home security systems, and more. While there might not be a Java dog collar yet, Java's versatility allows
+it to run on smaller devices, making it popular for IoT development. Additionally, many Android applications 
+are developed using Java and JVM languages.
+-------------------------------------------------------------------------------------------------------------
+
 
 
 
