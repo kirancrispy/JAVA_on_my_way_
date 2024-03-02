@@ -1,0 +1,93 @@
+classes and object
+
+Class:
+Blueprint: Think of a class as a blueprint or a template that defines the structure and behavior of objects. For example, if you have a class "Car," it would define what a car is and what it can do.
+Attributes and Methods: Inside the class, you define attributes (characteristics) and methods (actions) that all objects of that class will have. A "Car" class might have attributes like color and speed, and methods like "accelerate" and "brake."
+
+Object:
+Instance: An object is an instance or a specific realization created from the blueprint of a class. If "Car" is a class, an object would be a specific car, like a red Ferrari.
+Attributes' Values: Each object has its own values for the attributes defined in the class. For example, one car object may have a color attribute with the value "red."
+Methods' Actions: Objects can perform actions defined in the class's methods. The "accelerate" method for a specific car object would make that car speed up.
+// Class definition
+class Car {
+    // Attributes
+    String color;
+    int speed;
+
+    // Method
+    void accelerate() {
+        speed += 10;
+    }
+}
+
+// Creating an object
+Car myCar = new Car();
+myCar.color = "red";
+myCar.speed = 20;
+
+// Using object's methods
+myCar.accelerate(); // Now, myCar's speed is 30
+
+In this example, Car is a class, and myCar is an object created from that class. The object has attributes (color and speed) and a method (accelerate) that can be used to modify its state.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+lets move on to the next :- Inheritance
+Inheritance in programming refers to the mechanism by which a new class (subclass or derived class) can inherit attributes and behaviors from an existing class (superclass or base class). It promotes code reuse and establishes a hierarchy among classes.
+Base Class (Superclass): The class whose attributes and behaviors are inherited. It serves as the foundation or template.
+Derived Class (Subclass): The class that inherits attributes and behaviors from the base class. It can also extend or override them and add new ones.
+-Inheritance Benefits: Code Reuse: The subclass can reuse code from the superclass, avoiding redundancy.
+-Modularity: Changes in the base class can be reflected in all derived classes.
+-Hierarchy: It allows the creation of a class hierarchy, modeling real-world relationships.
+
+Types of Inheritance:
+-Single Inheritance: A subclass inherits from only one superclass.
+-Multiple Inheritance: A subclass can inherit from more than one superclass (not supported in Java).
+-Multilevel Inheritance: A class inherits from another class, and then another class inherits from it.
+-Keyword in Java: In Java, the extends keyword is used to implement inheritance.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Things an object knows about itself are called instance variables
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class animal{
+
+    //properties or instances or variables
+    String name="feedo";
+    String color="white";
+    int weight=7;
+//behaviours or methods
+    void run(String val)
+    {
+      System.out.println(val);
+    }
+
+    void sleep()
+{
+        System.out.println("i can sleep");
+    }
+ }
+
+
+
+class HelloWorld {
+     public static void main(String[] args )
+    {
+       // System.out .println("hii");
+        animal dog=new animal();
+         System.out.println(dog.color);
+         
+        // String x="i am kiran";
+         dog.run("hiii");
+        
+         
+
+    }
+}
+
+
+
+ 
+ 
