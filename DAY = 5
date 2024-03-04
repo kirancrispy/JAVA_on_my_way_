@@ -1,1 +1,51 @@
+primitives and references:- Variables can store two types of things: primitives and references.
 
+==Primitives hold 
+fundamental values (think: simple bit patterns) 
+including integers, booleans, and floating-point number
+
+int count;   ----------
+                       variables must have a type  ex;-  int
+                       variables must have a name  ex:-  count
+
+The eight primitive types are:
+boolean char byte short int long float double
+And here’s a mnemonic for remembering them:
+Be Careful! Bears Shouldn’t Ingest Large 
+Furry Dogs
+If you make up your own, it’ll stick even better.
+B_ C_ B_ S_ I_ L_ F_ D_
+
+Primitive declarations :-----
+with assignments:
+int x;
+x = 234;
+byte b = 89;
+boolean isFun = true;
+double d = 3456.98;
+char c = ‘f’;
+int z = x;
+boolean isPunkRock;
+isPunkRock = false;
+boolean powerOn;
+powerOn = isFun;
+long big = 3456789L;
+float f = 32.5;
+
+
+
+
+
+boolean and char and numeric :- 
+
+==Object references hold, well, references to objects
+(gee, didn’t that clear it up)
+There is actually no such thing as an object variable.
+ There’s only an object reference variable.
+ An object reference variable holds bits that represent a 
+ way to access an object.
+ It doesn’t hold the object itself, but it holds something 
+ like a pointer. Or an address. Except, in Java we don’t 
+ really know what is inside a reference variable. We do 
+ know that whatever it is, it represents one and only one 
+ object. And the JVM knows how to use the reference to get to the object.
