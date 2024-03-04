@@ -1,1 +1,122 @@
+instance variables = Things an object knows about itself are called instance variables. They represent an object’s state (the data) and can 
+have unique values for each object of that type.  Think of instance as another way of saying object.
+
+                  object have 2 face 
+one is instance variable            second is method
+                                                        these instance variable and methods are part of class.
+                                                        class is a blueprint for an object
+                                                                                       ex = jvm is worker and blueprint is class
+-----------------------------------------------------------------------------------------------------------------------------------------
+one class many objects.
+ex:- 
+        class Dog {
+        int size;
+        string breed;
+        string name;
+        void bark() {
+        System.out.println("     ruf!...ruf!......    ");
+        }
+        }
+What’s the difference between  a class and an object?
+
+A class is a blueprint for an object. It tells the virtual machine how to make an object of that 
+particular type. Each object made from that class can have its own values for the instance 
+variables of that class. For example, you might use the Button class to make 
+dozens of different buttons, and each button might have its own color, size, shape, 
+label, and so on. Each one of these different buttons would be a button object.
+
+ex :- 
+
+step 1 Write a class
+ class Dog {
+ int size;
+ String breed;
+ String name;
+ void bark() {
+ System.out.println("Ruff! Ruff!");
+ }
+}
+------------------------------------------------------------------
+step 2  Write a tester (TestDrive) class
+
+class DogTestDrive {
+ public static void main(String[] args) {
+ // Dog test code goes here
+ }
+}
+----------------------------------------------------------------------------------------
+step 3 In tester, make an object and access the object’s variables and methods
+
+class DogTestDrive {
+ public static void main(String[] args) {
+ Dog d = new Dog();
+ d.size = 40;                   //used dot operator                            
+ d.bark();
+}
+}  
+---------------------------------------------------------------------------------------
+The dot operator (.) gives you access to an object’s state and behavior (instance variables and methods).
+// make a new object
+Dog d = new Dog();
+// tell it to bark by using the
+// dot operator on the 
+// variable d to call bark()
+d.bark();
+// set its size using the
+// dot operator
+d.size = 40;
+-----------------------------------------------------------------------------------------
+
+Making and testing Movie objects k just for fun and learn
+
+class Movie {
+ String title;
+ String genre;
+ int rating;
+ void playIt() {
+ System.out.println("Playing the movie");
+ }
+}
+public class MovieTestDrive {
+ public static void main(String[] args) {
+ Movie one = new Movie();
+ one.title = "MALLA";
+ one.genre = "inspretion";
+ one.rating = 5;
+ Movie two = new Movie();
+ two.title = "siddath";
+ two.genre = "emotion";
+ two.rating = 5;
+ two.playIt();
+ Movie three = new Movie();
+ three.title = "kesari";
+ three.genre = "nation love";
+ three.rating = 5;
+ }
+}
+-----------------------------------------------------------------------------------------------------
+The two uses of main:
+ 1. to test your real class
+ 2. to launch/start your Java application
+ java application nothing but a objects calling methods on one another
+------------------------------------------------------------------------------------------------------
+
+just make littele program like this and practice it creating method and object like that ....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
