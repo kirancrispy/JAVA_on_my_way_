@@ -1,0 +1,96 @@
+Life on the garbage-collectible heap
+Book b = new Book();
+Book c = new Book();
+
+Book d = c;
+Declare two Book reference variables. Create two new Book objects. Assign the Book objects to the reference variables.
+The two Book objects are now living 
+
+on the heap. 
+References: 2
+Objects: 2
+
+Declare a new Book reference variable. Rather than creating a new, third Book object, assign the value of variable c to 
+variable d. But what does this mean? It’s like saying “Take the bits in c, make a 
+copy of them, and stick that copy into d.     ”Both c and d refer to the same object. 
+The c and d variables hold 
+two different copies of the 
+same value. Two remotes 
+programmed to one TV.
+References: 3
+Objects: 2
+
+c = b;
+Assign the value of variable b to 
+variable c. By now you know what 
+this means. The bits inside variable 
+b are copied, and that new copy is 
+stuffed into variable c.
+Both b and c refer to the 
+same object. 
+The c variable no longer 
+refers to its old Book 
+object.
+References: 3
+Objects: 2
+
+
+next move on to the array
+—the  array is an object, even though it’s an array of  primitives. 
+Arrays are always objects, whether they’re declared to hold primitives or object references
+
+Declare an int array variable. An array variable is a remote control to an array object.
+int[] nums;
+nums = new int[7];
+2 Create a new int array with a length of 7, and assign it to the previously 
+declared int[] variable nums
+3 Give each element in the array some int value. Remember, elements in an int array are just int variables.
+
+7int variables 
+nums[0] = 6;
+nums[1] = 19;
+nums[2] = 44;
+nums[3] = 42;
+nums[4] = 10;
+nums[5] = 20;
+nums[6] = 1;
+
+Regardless of what the array holds, the array itself is always an object.
+
+Make an array of Dogs
+
+Declare a Dog array variable
+Dog[] pets;
+pets = new Dog[7];
+2 Create a new Dog array with 
+a length of 7, and assign it to 
+the previously declared Dog[]
+variable pets
+
+Create new Dog objects, and 
+assign them to the array 
+elements. 
+Remember, elements in a Dog 
+array are just Dog reference 
+variables. We still need Dogs.
+pets[0] = new Dog();
+pets[1] = new Dog();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
