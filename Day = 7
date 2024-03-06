@@ -21,3 +21,33 @@ Setter
        }
     
 }
+
+Getter
+
+ //main class
+ class Main {
+     public static void main(String[] args)
+     {
+         Demo d=new Demo();//new Demo(   )//d object created
+         d.setname("hyyyyy") ; //call
+        String store= d.getName();//name
+        System.out.println(store);
+     }
+ }
+ 
+ class Demo {
+    String name="sukesh";//instance variable
+     
+     void setname(String x)
+      {
+          
+        
+        name=x;
+       
+       }
+       String getName()
+       {
+           return name;
+       }
+    
+}
