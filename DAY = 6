@@ -2,6 +2,7 @@ Life on the garbage-collectible heap
 Book b = new Book();
 Book c = new Book();
 
+
 Book d = c;
 Declare two Book reference variables. Create two new Book objects. Assign the Book objects to the reference variables.
 The two Book objects are now living 
